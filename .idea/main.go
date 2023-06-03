@@ -11,7 +11,7 @@ var remainingTicket uint = 50
 
 func main() {
 
-	service.GreetUsers(ticket, remainingTicket)
+	service.WelcomeMessage(ticket, remainingTicket)
 
 	fmt.Println()
 }
